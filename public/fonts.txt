@@ -1,0 +1,7 @@
+Add these Google Fonts to your project:
+
+1. Baloo 2 (for headings): https://fonts.google.com/specimen/Baloo+2
+2. Inter (for body): https://fonts.google.com/specimen/Inter
+
+To use, add the following to your <head> in _app.tsx or _document.tsx:
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet" />
