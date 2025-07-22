@@ -14,7 +14,14 @@ export default function Home() {
             <a href="#testimonials" className="text-gray-600 hover:text-gray-800 transition-colors">Reviews</a>
             <a href="#contact" className="text-gray-600 hover:text-gray-800 transition-colors">Contact</a>
           </div>
-          <button className="btn-primary">Book Now</button>
+          <a 
+            href="https://wa.me/917240509191?text=Hi%20PartyFarm!%20I%20want%20to%20book%20a%20farmhouse.%20Can%20you%20show%20me%20available%20options?" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn-primary"
+          >
+            Book Now
+          </a>
         </div>
       </nav>
 
@@ -32,9 +39,14 @@ export default function Home() {
             <button className="btn-primary text-xl px-10 py-5">
               🎉 Start Planning Your Event
             </button>
-            <button className="btn-secondary text-xl px-10 py-5">
+            <a 
+              href="https://wa.me/917240509191?text=Hi%20PartyFarm!%20I'm%20interested%20in%20booking%20a%20farmhouse%20for%20my%20event.%20Can%20you%20help%20me?" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="btn-secondary text-xl px-10 py-5 inline-flex items-center justify-center"
+            >
               📱 Chat on WhatsApp
-            </button>
+            </a>
           </div>
           <div className="relative mx-auto mt-6">
             <div className="aspect-video bg-gradient-to-r from-green-100 to-blue-100 rounded-3xl shadow-2xl border border-gray-200 flex items-center justify-center">
@@ -165,7 +177,14 @@ export default function Home() {
               </div>
               
               <div className="mt-12 flex flex-col sm:flex-row gap-6">
-                <button className="btn-primary text-xl px-10 py-5">Get Started Today</button>
+                <a 
+                  href="https://wa.me/917240509191?text=Hi%20PartyFarm!%20I'm%20interested%20in%20your%20services.%20Can%20you%20tell%20me%20more%20about%20your%20farmhouse%20options?" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="btn-primary text-xl px-10 py-5 inline-flex items-center justify-center"
+                >
+                  Get Started Today
+                </a>
                 <button className="btn-secondary text-xl px-10 py-5">Learn More</button>
               </div>
             </div>
@@ -192,12 +211,20 @@ export default function Home() {
             Start planning your dream event today.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <button className="btn-primary bg-green-500 hover:bg-green-600 text-xl px-10 py-5">
+            <a 
+              href="tel:+917240509191"
+              className="btn-primary bg-green-500 hover:bg-green-600 text-xl px-10 py-5 inline-flex items-center justify-center"
+            >
               📞 Call Us Now
-            </button>
-            <button className="btn-secondary border-white text-white hover:bg-white hover:text-gray-800 text-xl px-10 py-5">
+            </a>
+            <a 
+              href="https://wa.me/917240509191?text=Hi%20PartyFarm!%20I'm%20ready%20to%20book%20a%20farmhouse%20for%20my%20event.%20Please%20help%20me%20get%20started!" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="btn-secondary border-white text-white hover:bg-white hover:text-gray-800 text-xl px-10 py-5 inline-flex items-center justify-center"
+            >
               💬 WhatsApp Chat
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -239,10 +266,23 @@ export default function Home() {
             <div>
               <h4 className="text-xl font-semibold mb-6">Contact</h4>
               <ul className="space-y-3 text-gray-400 text-lg">
-                <li>📞 +91 XXXXX XXXXX</li>
-                <li>💬 WhatsApp Chat</li>
+                <li>
+                  <a href="tel:+917240509191" className="hover:text-white transition-colors">
+                    📞 +91 724050 9191
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://wa.me/917240509191?text=Hi%20PartyFarm!%20I'm%20interested%20in%20your%20farmhouse%20booking%20services." 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-white transition-colors"
+                  >
+                    💬 WhatsApp Chat
+                  </a>
+                </li>
                 <li>📧 hello@partyfarm.com</li>
-                <li>🌐 www.partyfarm.com</li>
+                <li>🌐 https://partyfarm.in</li>
               </ul>
             </div>
           </div>
