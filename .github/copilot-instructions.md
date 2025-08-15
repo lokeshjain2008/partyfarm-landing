@@ -78,9 +78,9 @@ next.js static pages deployed on vercel.
 - ✅ **FAQ Section**: Complete with 7 engaging Q&As addressing common customer concerns
 - ✅ **Privacy Policy**: Comprehensive privacy page with detailed data protection policies
 - ✅ **Terms & Conditions**: Complete legal terms page covering booking policies, liability, and service terms
-- 🎯 **Testimonials**: Add customer reviews and success stories section
-- 🎯 **Venue Gallery**: Create a preview gallery of top farmhouses
-- 🎯 **Process Flow**: Add "How it works" section with 3-4 steps
+- 🎯 **Testimonials**: Add customer reviews and success stories section - later
+- 🎯 **Venue Gallery**: Create a preview gallery of top farmhouses - later 
+- 🎯 **Process Flow**: Add "How it works" section with 3-4 steps - later
 
 #### **2. SEO & Performance (Priority: HIGH)**
 - 🎯 **Meta Tags**: Complete SEO optimization with proper titles, descriptions

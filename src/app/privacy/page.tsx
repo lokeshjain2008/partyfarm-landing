@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy - PartyFarm',
@@ -13,15 +14,15 @@ export default function PrivacyPolicy() {
         <div className="container mx-auto px-4 lg:px-8 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <span className="text-2xl">🏡</span>
-            <a href="/" className="text-2xl font-bold text-gray-800 hover:text-green-600 transition-colors">
+            <Link href="/" className="text-2xl font-bold text-gray-800 hover:text-green-600 transition-colors">
               PartyFarm
-            </a>
+            </Link>
           </div>
           <div className="hidden md:flex items-center space-x-8">
-            <a href="/#features" className="text-gray-600 hover:text-gray-800 transition-colors">Features</a>
-            <a href="/#venues" className="text-gray-600 hover:text-gray-800 transition-colors">Venues</a>
-            <a href="/#faq" className="text-gray-600 hover:text-gray-800 transition-colors">FAQ</a>
-            <a href="/#contact" className="text-gray-600 hover:text-gray-800 transition-colors">Contact</a>
+            <Link href="/#features" className="text-gray-600 hover:text-gray-800 transition-colors">Features</Link>
+            <Link href="/#venues" className="text-gray-600 hover:text-gray-800 transition-colors">Venues</Link>
+            <Link href="/#faq" className="text-gray-600 hover:text-gray-800 transition-colors">FAQ</Link>
+            <Link href="/#contact" className="text-gray-600 hover:text-gray-800 transition-colors">Contact</Link>
           </div>
           <a 
             href="https://wa.me/917240509191?text=Hi%20PartyFarm!%20I%20want%20to%20book%20a%20farmhouse.%20Can%20you%20show%20me%20available%20options?" 
@@ -224,12 +225,12 @@ export default function PrivacyPolicy() {
 
           {/* Back to Home */}
           <div className="text-center mt-16">
-            <a 
+            <Link 
               href="/"
               className="btn-primary text-xl px-10 py-5 inline-flex items-center justify-center"
             >
               🏠 Back to Home
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -243,7 +244,7 @@ export default function PrivacyPolicy() {
           </div>
           <p className="text-gray-400 mb-6">Making your happy moments memorable</p>
           <div className="flex justify-center space-x-6">
-            <a href="/" className="text-gray-400 hover:text-white transition-colors">Home</a>
+            <Link href="/" className="text-gray-400 hover:text-white transition-colors">Home</Link>
             <a href="/privacy" className="text-gray-400 hover:text-white transition-colors">Privacy</a>
             <a href="/terms" className="text-gray-400 hover:text-white transition-colors">Terms</a>
           </div>
